@@ -1,0 +1,28 @@
+/* Common styles for all traffic light circles */
+.trafficLight {
+    border-radius: 50%;         /* Makes the element circular */
+    border: 2px solid black;  /* Outline for visibility */
+    height: 75px;
+    width: 75px;
+    margin: 20px;               /* Space between lights */
+    padding: 20px;
+    display: block;
+}
+
+/* Active traffic light colors */
+.trafficLight-red {
+    background-color: red;
+}
+
+.trafficLight-yellow {
+    background-color: yellow;
+}
+
+.trafficLight-green {
+    background-color: green;
+}
+
+/* Inactive state */
+.trafficLight-gray {
+    background-color: gray;
+}

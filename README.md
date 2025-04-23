@@ -1,14 +1,14 @@
-# Traffic Light Simulation
-
-This project simulates a traffic light using HTML, CSS, and JavaScript.
-
 ## Current features
 
 - HTML structure with three circles (traffic light)
 - External script and style file connected
+- Basic CSS styles added:
+  - Red, yellow, green, gray (off) states
+  - Rounded shape for lights
 
 ## Next steps
 
-- Add styles for the traffic light lights
 - Implement color switching logic in JavaScript
-- Add manual and automatic switching modes
+- Add automatic light switching (2s cycle)
+- Add manual switching via button
+
